@@ -20,7 +20,7 @@
             tag = "latest";
             created = "now";
             config = {
-              Cmd = [ "${pkgs.hello}/bin/hello" ];
+              Cmd = [ "${pkgs.pkgsCross.gnu64.hello}/bin/hello" ];
             };
           };
         };
